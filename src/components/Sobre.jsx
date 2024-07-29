@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import ImageTeste from "../../assets/pain.jpg";
+import ImageTeste from "../assets/pain.jpg";
 import { JoinButton, TitleSection } from "./Utils";
 
 export function Sobre() {
