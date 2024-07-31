@@ -5,18 +5,21 @@ import Link from "next/link";
 export function Banner() {
   return (
     <div className="bg-black">
-      <div className="max-w-6xl mx-auto min-h-screen text-white grid grid-cols-2 items-center relative">
+      <div className="max-w-6xl mx-auto px-4 min-h-screen text-white grid sm:grid-cols-2 items-center relative">
         <div className="space-y-5">
           <TitleSection title={"Eleicão 2024"} />
-          <h1 className="text-5xl font-bold">Lorem ipsum dolor sit amet.</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold">
+            ONDE HÁ TRABALHO, TEM CRESCIMENTO!
+          </h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus saepe magni ipsam, dolor eum reiciendis.
+            Somos os representantes da visão audaciosa de superação e progresso
+            para nossa cidade.
           </p>
-          <CountdownTimer targetDate="2024-10-01T00:00:00" />
-          <JoinButton text={"Entrar"} />
+          <p>PARA PREFEITO DE BURITIS, VOTE EM RUFINO. VOTE 22!</p>
+          <CountdownTimer targetDate="2024-10-06T00:00:00" />
+          <JoinButton text={"ACOMPANHE AQUI"} />
         </div>
-        <div className="absolute right-0 top-1/3 flex flex-col gap-3">
+        <div className="absolute right-4 top-4 sm:top-1/3 flex flex-col gap-3">
           <Link
             href={"https://www.instagram.com/rufinofolador/"}
             target="_blank"
