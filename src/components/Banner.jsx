@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export function Banner() {
   return (
-    <div className="bg-black">
-      <div className="max-w-6xl mx-auto px-4 min-h-screen text-white grid sm:grid-cols-2 items-center relative">
+    <div className="bg-[url('/bg-mobile.jpg')] sm:bg-[url('/bg-desktop.jpg')] bg-no-repeat bg-cover bg-center">
+      <div className="max-w-6xl mx-auto px-4 min-h-screen text-white grid sm:grid-cols-2 items-center relative pb-8 pt-[480px] sm:pt-0">
         <div className="space-y-5">
           <TitleSection title={"Eleicão 2024"} />
           <h1 className="text-4xl sm:text-5xl font-bold">

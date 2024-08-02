@@ -70,7 +70,7 @@ export function CountdownTimer({ targetDate }) {
   });
 
   return (
-    <div className="flex gap-5 text-center text-2xl sm:text-4xl font-medium bg-blue-900/50 p-5 w-fit">
+    <div className="flex gap-2 sm:gap-5 text-center text-2xl sm:text-4xl font-medium bg-blue-900/50 p-5 w-fit">
       <div className="flex flex-col">
         <span>{timeLeft.days}</span>
         <span className="text-xs font-normal uppercase">Days</span>
