@@ -20,19 +20,22 @@ export function Banner() {
           <JoinButton text={"ACOMPANHE AQUI"} />
         </div>
         <div className="absolute right-4 top-4 sm:top-1/3 flex flex-col gap-3">
-          <Link
+          <a
             href={"https://www.instagram.com/rufinofolador/"}
             target="_blank"
             className="hover:text-orange-500 duration-300"
           >
             <IconInstagram size={18} />
-          </Link>
-          <Link href={"#"} className="hover:text-orange-500 duration-300">
+          </a>
+          <a
+            href={"https://www.facebook.com/profile.php?id=61557887701559"}
+            className="hover:text-orange-500 duration-300"
+          >
             <IconFacebook size={18} />
-          </Link>
-          <Link href={"#"} className="hover:text-orange-500 duration-300">
+          </a>
+          {/*  <Link href={"#"} className="hover:text-orange-500 duration-300">
             <IconX size={18} />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
