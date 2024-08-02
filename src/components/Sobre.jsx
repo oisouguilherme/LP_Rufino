@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FotoRufino from "../assets/foto_perfil.jpg";
+import FotoRufino from "../assets/foto.jpg";
 import { JoinButton, TitleSection } from "./Utils";
 
 export function Sobre() {
