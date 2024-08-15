@@ -19,19 +19,19 @@ export function Banner() {
           <CountdownTimer targetDate="2024-10-06T00:00:00" />
           <JoinButton text={"ACOMPANHE AQUI"} />
         </div>
-        <div className="absolute right-4 top-4 sm:top-1/3 flex flex-col gap-3">
+        <div className="absolute left-4 top-4 sm:top-16 flex gap-3">
           <a
             href={"https://www.instagram.com/rufinofolador/"}
             target="_blank"
             className="hover:text-orange-500 duration-300"
           >
-            <IconInstagram size={18} />
+            <IconInstagram size={24} />
           </a>
           <a
             href={"https://www.facebook.com/profile.php?id=61557887701559"}
             className="hover:text-orange-500 duration-300"
           >
-            <IconFacebook size={18} />
+            <IconFacebook size={24} />
           </a>
           {/*  <Link href={"#"} className="hover:text-orange-500 duration-300">
             <IconX size={18} />

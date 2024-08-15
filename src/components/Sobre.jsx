@@ -25,8 +25,8 @@ export function Sobre() {
         </div>
         <div className="bg-blue-900/50 border-l-4 border-orange-400 sm:max-w-[80%]">
           <p className="p-5 font-medium uppercase">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque,
-            consectetur?
+            A EXPERIÊNCIA A FAVOR DO POVO! <br /> PARA O PROGRESSO CONTINUAR:
+            VOTE 22.
           </p>
         </div>
 
