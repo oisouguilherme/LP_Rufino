@@ -10,9 +10,11 @@ export default function HomePage() {
       <MissaoValores />
       <Sobre />
       <Prioridades />
-      <footer className="bg-gray-50 py-1 text-xs text-center">
-        <p className="flex items-center gap-2 justify-center">
-          © Todos os direitos reservados 2024 | 000000000-00 | Desenvolvido por
+      <footer className="bg-gray-50 py-1 text-xs">
+        <p className="flex items-center gap-2 justify-center text-center">
+          © Todos os direitos reservados 2024 | Coligação: Onde há trabalho, tem
+          crescimento. PL / PDT / PSD / AVANTE / NOVO | 56.473.605/0001-54 |
+          Desenvolvido por
           <a
             href="https://guilherme-portfolio-frontend.netlify.app"
             target="_blank"
