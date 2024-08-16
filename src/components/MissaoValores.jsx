@@ -57,7 +57,8 @@ export function MissaoValores() {
             </h4>
             <p className="text-sm">
               É compromisso ampliar todos os programas em funcionamento.
-              Incluindo a realização contínua de mutirões e a ampliação do ECIM.
+              Incluindo a realização contínua de mutirões de saúde e a ampliação
+              do ECIM.
             </p>
           </div>
         </div>

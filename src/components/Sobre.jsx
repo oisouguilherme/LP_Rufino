@@ -20,7 +20,7 @@ export function Sobre() {
             Conheço de perto a necessidade do povo. Trabalhei 4 anos como
             vereador de nossa cidade e 8 anos como vice-prefeito. Junto ao
             executivo pude concretizar muitas obras e quero agora, com
-            experiência continuar o trabalho de excelência.
+            experiência, continuar o trabalho de excelência.
           </p>
         </div>
         <div className="bg-blue-900/50 border-l-4 border-orange-400 sm:max-w-[80%]">
