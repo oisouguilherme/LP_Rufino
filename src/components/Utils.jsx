@@ -73,22 +73,22 @@ export function CountdownTimer({ targetDate }) {
     <div className="flex gap-2 sm:gap-5 text-center text-2xl sm:text-4xl font-medium bg-blue-900/50 p-5 w-fit">
       <div className="flex flex-col">
         <span>{timeLeft.days}</span>
-        <span className="text-xs font-normal uppercase">Days</span>
+        <span className="text-xs font-normal uppercase">Dias</span>
       </div>
       <span className="text-orange-500">:</span>
       <div className="flex flex-col">
         <span>{timeLeft.hours}</span>
-        <span className="text-xs font-normal uppercase">Hours</span>
+        <span className="text-xs font-normal uppercase">Horas</span>
       </div>
       <span className="text-orange-500">:</span>
       <div className="flex flex-col">
         <span>{timeLeft.minutes}</span>
-        <span className="text-xs font-normal uppercase">Minutes</span>
+        <span className="text-xs font-normal uppercase">Minutos</span>
       </div>
       <span className="text-orange-500">:</span>
       <div className="flex flex-col">
         <span>{timeLeft.seconds}</span>
-        <span className="text-xs font-normal uppercase">Seconds</span>
+        <span className="text-xs font-normal uppercase">Segundos</span>
       </div>
     </div>
   );
