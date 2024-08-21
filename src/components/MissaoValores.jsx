@@ -6,7 +6,7 @@ export function MissaoValores() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col items-center text-center space-y-5">
           <TitleSection title={"NOSSA BANDEIRA É O POVO!"} />
-          <h2 className="text-3xl font-semibold text-blue-950">
+          <h2 className="text-3xl font-semibold text-blue-600">
             Nossa Missão & Valores
           </h2>
           <p className="sm:max-w-[70%] text-sm">

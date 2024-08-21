@@ -7,12 +7,16 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Rufino Folador",
   description: "ONDE HÁ TRABALHO, TEM CRESCIMENTO. PARA PREFEITO DE BURITIS, VOTE EM RUFINO. VOTE 22!",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <Head>
+        <link rel="icon" href="/favicon.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
