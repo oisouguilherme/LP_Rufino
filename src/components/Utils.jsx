@@ -24,7 +24,7 @@ export function JoinButton({ text }) {
     <a
       href={"https://www.facebook.com/profile.php?id=61557887701559"}
       target="_blank"
-      className="bg-orange-400 hover:bg-orange-500 duration-300 max-w-64 w-full text-center py-2 flex justify-center items-center gap-2 uppercase"
+      className="bg-orange-400 hover:bg-orange-500 duration-300 sm:max-w-80 w-full text-center py-2 flex justify-center items-center gap-2 uppercase"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
